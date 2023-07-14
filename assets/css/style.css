@@ -6,8 +6,6 @@
   box-sizing: border-box;
   list-style-type: none;
   text-decoration: none !important;
-  /* border: 2px solid blue; */
-
 }
 
 .container {
@@ -153,7 +151,7 @@
   font-family: 'Poppins', sans-serif;
   font-size: 36px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .connect {
@@ -175,7 +173,7 @@
   font-style: normal;
   font-weight: 700;
   max-width: 400px;
-  margin-top: 250px;
+  /* margin-top: 250px; */
 }
 
 .velit {
@@ -203,13 +201,15 @@
   border-radius: 10px;
   background: #18191A;
 }
-.position-relative{
+
+.position-relative {
   position: relative;
 }
-.lineimg{
+
+.lineimg {
   position: absolute;
   right: 0;
-  top:2%;
+  top: 2%;
 }
 
 .parah {
@@ -218,7 +218,6 @@
   font-size: 48px;
   font-style: normal;
   font-weight: 600;
-  /* margin-top: 50px; */
 }
 
 .para {
@@ -352,7 +351,6 @@
   margin-bottom: 16px;
 }
 
-
 .hading {
   color: var(--white, #FFF);
   text-align: center;
@@ -370,8 +368,9 @@
   height: 154px;
 }
 
-.p {
-  margin-bottom: 0 ;
+p {
+  margin-bottom: 0;
+
 }
 
 .card4:hover {
@@ -511,13 +510,16 @@
 .mr-25 {
   margin-right: 25px;
 }
-.mt-50{
+
+.mt-50 {
   margin-top: 80px;
   margin-bottom: 50px;
 }
-.mt-60{
+
+.mt-60 {
   margin-top: 60px;
 }
+
 .pt-67 {
   padding-top: 67px;
 }
@@ -530,6 +532,7 @@
   background: #0C0C0C;
   height: 40px;
 }
+
 .roadmap {
   color: #FFF;
   text-align: center;
@@ -631,7 +634,14 @@
   line-height: 180%;
   max-width: 300px;
 }
-.px20{
+
+.p {
+  margin-bottom: 0;
+}
+.mb-50{
+  margin-bottom: 50px;
+}
+.px20 {
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -644,11 +654,17 @@
   font-style: normal;
   font-weight: 600;
 }
-.my-20{
+
+.my-20 {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.mb-20{
+
+.pl-20 {
+  padding-left: 45px;
+}
+
+.mb-20 {
   margin-bottom: 20px;
 }
 
@@ -675,6 +691,7 @@
   box-shadow: none;
   border-color: #b8b8b8;
 }
+
 .accordion {
   background-color: none;
 }
@@ -682,7 +699,8 @@
 .flex-dxn-rev {
   flex-direction: column-reverse;
 }
-.menu{
+
+.menu {
   z-index: 2;
   width: 10px;
   height: 2px;
@@ -719,8 +737,6 @@
   .right {
     left: 0;
   }
-
-
 }
 
 @media (max-width:1200px) {
@@ -756,86 +772,91 @@
     display: none;
   }
 }
+
 @media (max-width:578px) {
-     .timel::after {
-  content: "";
-  position: absolute;
-  width: 6px;
-  background-color: #fff;
-  top: 3%;
-  bottom: 22%;
-  left: 10%;
-  margin-left: -3px;
+  .timel::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    background-color: #fff;
+    top: 3%;
+    bottom: 22%;
+    left: 10%;
+    margin-left: -3px;
+  }
 }
- 
-}
+
 @media (min-width:320px) {
   .circle {
     width: 85px;
     height: 55px;
-     }
+  }
+
   .amet {
-     font-size: 12px;   
+    font-size: 12px;
   }
+
   .cras {
-     font-size: 18px;   
+    font-size: 18px;
   }
+
   .para1 {
-    font-size: 26px;   
+    font-size: 26px;
+    margin-top: 20px;
   }
+
   .para2 {
     font-size: 12px;
   }
+
   .parah {
     font-size: 26px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
   }
+
   .vitae {
     color: var(--white, #FFF);
     font-family: 'Poppins', sans-serif;
-    font-size: 50px;
+    font-size: 44px;
     font-style: normal;
     font-weight: 700;
     max-width: 400px;
     margin-top: 10px;
   }
+
   .mt50 {
     margin-top: 10px;
   }
 
-  
 }
+
 @media (min-width:567px) {
   .circle {
     width: 71px;
     height: 71px;
-   
   }
-  .amet {
-   
-    font-size: 18px;
-   
-  }
-  .cras {
-  
-    font-size: 22px;
-   
-  }
-  .para1 {
-   
-    font-size: 48px;
-   
-  }
-  .para2 {
-   
-    font-size: 18px;
-   
-  }
-  .parah {
-   
-    font-size: 48px;
 
+  .amet {
+    font-size: 18px;
   }
+
+  .cras {
+    font-size: 22px;
+  }
+
+  .para1 {
+    font-size: 48px;
+    margin-top: 243px;
+  }
+
+  .para2 {
+    font-size: 18px;
+  }
+
+  .parah {
+    font-size: 48px;
+  }
+
   .vitae {
     color: var(--white, #FFF);
     font-family: 'Poppins', sans-serif;
@@ -843,8 +864,9 @@
     font-style: normal;
     font-weight: 700;
     max-width: 400px;
-    margin-top: 250px;
+    /* margin-top: 250px; */
   }
+
   .mt50 {
     margin-top: 170px;
   }
