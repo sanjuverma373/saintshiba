@@ -220,6 +220,7 @@
   font-size: 48px;
   font-style: normal;
   font-weight: 600;
+
 }
 
 .para {
@@ -229,6 +230,7 @@
   font-style: normal;
   font-weight: 400;
   margin-bottom: 0;
+  margin: 16px;
 }
 
 .para1 {
@@ -816,7 +818,7 @@ p {
 
   .parah {
     font-size: 26px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
   }
 
   .vitae {
