@@ -199,7 +199,9 @@
 
 .card10 {
   border-radius: 10px;
-  background: #18191A;
+  border: 4px solid #3d3835;
+  background: linear-gradient(136deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00) 100%);
+  backdrop-filter: blur(16px);
 }
 
 .position-relative {
@@ -250,15 +252,16 @@
   margin-bottom: 32px;
 }
 
-.learn {
-  border: 2px solid;
+.lern {
   padding: 7px 23px;
   border-radius: 23.5px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 600;
   background: var(--gradient-h, linear-gradient(90deg, #FFA800 0%, #F06500 100%));
+  color: var(--white, #FFF);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 180%;
 }
 
 .mt58 {
@@ -638,9 +641,11 @@ p {
 .p {
   margin-bottom: 0;
 }
-.mb-50{
+
+.mb-50 {
   margin-bottom: 50px;
 }
+
 .px20 {
   padding-left: 20px;
   padding-right: 20px;
@@ -811,7 +816,7 @@ p {
 
   .parah {
     font-size: 26px;
-    /* margin-top: 50px; */
+    margin-top: 50px;
   }
 
   .vitae {
