@@ -196,12 +196,21 @@
   background: var(--gradient-h, linear-gradient(90deg, #FFA800 0%, #F06500 100%));
   padding: 12px 32px;
 }
+.fonts{
+  color: #B8B8B8;
+  font-family: 'Poppins', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+
+}
 
 .card10 {
   border-radius: 10px;
   border: 4px solid #3d3835;
   background: linear-gradient(136deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00) 100%);
   backdrop-filter: blur(16px);
+  margin-top: 30px;
 }
 
 .position-relative {
@@ -751,7 +760,7 @@ p {
     flex-direction: column;
     width: 100%;
     height: 100%;
-    background-color: rgb(216, 29, 29);
+    background-color: #FFA409;
     display: flex;
     min-height: 100vh;
     align-items: center;
